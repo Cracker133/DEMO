@@ -1,6 +1,6 @@
 # Importing the required package
 from flask import Flask, render_template, request
-#import flasgger
+import flasgger
 from flasgger import Swagger
 
 # Defining the name (will fetch from the actual file name)
