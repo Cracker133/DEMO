@@ -6,4 +6,4 @@ WORKDIR /project
 ADD . /project
 RUN pip install --upgrade pip
 RUN pip install -r reqiurements.txt
-CMD ["python","main2.py"]
+CMD ["python","simple.py"]
